@@ -1,40 +1,20 @@
-package demo;
+package couchbaseApp;
 
 import com.couchbase.client.protocol.views.Query;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.couchbase.config.AbstractCouchbaseConfiguration;
-import org.springframework.data.couchbase.core.CouchbaseTemplate;
-import org.springframework.data.couchbase.core.mapping.Document;
-import org.springframework.data.couchbase.core.mapping.Field;
 import org.springframework.data.couchbase.core.mapping.event.ValidatingCouchbaseEventListener;
-import org.springframework.data.couchbase.repository.config.EnableCouchbaseRepositories;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.social.facebook.api.Facebook;
-import org.springframework.social.facebook.api.Page;
 import org.springframework.social.facebook.api.impl.FacebookTemplate;
-import org.springframework.stereotype.Service;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 
-import javax.validation.constraints.NotNull;
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Date;
-import java.util.List;
-import java.util.stream.Collectors;
 
-/**
- * @author Laurent Doguin
- * @author Josh Long
- */
-@SpringBootApplication
+
+//@SpringBootApplication
 @EnableScheduling
 public class Application {
 

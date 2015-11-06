@@ -1,11 +1,10 @@
-import com.couchbase.client.protocol.views.Query;
+package couchbaseApp;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.couchbase.core.CouchbaseTemplate;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.social.facebook.api.Facebook;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 

@@ -1,3 +1,5 @@
+package couchbaseApp;
+
 import com.couchbase.client.protocol.views.Query;
 import org.springframework.data.repository.CrudRepository;
 

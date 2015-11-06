@@ -1,3 +1,5 @@
+package couchbaseApp;
+
 /**
  * Created by msaidi on 11/6/15.
  */

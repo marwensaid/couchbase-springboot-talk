@@ -1,3 +1,5 @@
+package couchbaseApp;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.Field;
@@ -61,7 +63,7 @@ class Place {
 
     @Override
     public String toString() {
-        return "Place{" + "id='" + id + '\'' + ", location=" + location + ", name='"
+        return "couchbaseApp.Place{" + "id='" + id + '\'' + ", location=" + location + ", name='"
                 + name + '\'' + ", affilitation='" + affilitation + '\'' + ", category='"
                 + category + '\'' + ", description='" + description + '\'' + ", about='"
                 + about + '\'' + ", insertionDate=" + insertionDate + '}';
